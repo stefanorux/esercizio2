@@ -43,7 +43,7 @@
         <p> Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.
             Perciò i passi saranno:</p>
         <ul>
-            
+
             <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
             <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
             <li>Applicare gli stili CSS</li>
@@ -55,9 +55,9 @@
             <caption> <b> Diffusione dei CSS </b></caption>
             <thead></thead>
             <tr>
-                <th>    Anno     </th>
-                <th>   % di utilizzo      </th>
-                <th>   supporto browser    </th>
+                <th> Anno </th>
+                <th> % di utilizzo </th>
+                <th> supporto browser </th>
             </tr>
             <Tbody>
                 <tr>
@@ -104,8 +104,15 @@
 
         <form method="post" action="..." autocomplete="on">
             <fieldset>
-                <legend> Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter: </legend>
-                <label for=" email"> email</label>
+                <action for="radio">Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
+                    newsletter:</action>
+                <br><label for="radio"> Si</label>
+
+                <input type="radio" name="radio">
+                <label for="radio"> No</label>
+                <input type="radio" name="radio">
+
+                <br><label for=" email" request> email</label>
                 <input type="email" name="email" id="email" placeholder="scrivi email ....">
                 <button type="submit" id="invia"> Invia </button>
 
